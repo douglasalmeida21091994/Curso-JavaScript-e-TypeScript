@@ -52,4 +52,10 @@ Exemplo: secao.2  ->  001aula1 e -> node aula.js
 
 ou fazer direto:
 
+Dentro do terminal, selecionado a pasta Curso-JavaScript-e-TypeScript digito:
+
+node secao.2\001aula1\aula.js
+
+Se fosse no LINUX, seriam barras normais, sem ser invertidas
+
 */
