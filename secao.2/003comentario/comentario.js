@@ -38,3 +38,6 @@ Se fosse no LINUX, seriam barras normais, sem ser invertidas
 /* Posso apertar: SHIFT+TAB
 
    ou posso clicar com meu botão direito e clicar em: FORMAT DOCUMENT (Atalho: Shift+Alt+F)
+*/
+
+// Apertando CTRL+U na página, mostrará todo o código
