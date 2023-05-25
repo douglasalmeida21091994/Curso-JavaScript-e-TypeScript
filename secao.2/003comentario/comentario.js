@@ -9,3 +9,26 @@
  * 
  * 
  */
+
+
+/* Posso executar também pelos terminais CMD ou terminal do linux
+
+Windows = CMD => node "c:\Users\Pichau\Documents\Web Dev\projetos\Curso-JavaScript-e-TypeScript\secao.2\001aula_1\aula1.js"
+Linux = Terminal => node "c:\Users\Pichau\Documents\Web Dev\projetos\Curso-JavaScript-e-TypeScript\secao.2\001aula_1\aula1.js" 
+
+VSCode na ABA terminal
+ou apenas clicar no ícone do CODE para executar no OUTPUT
+
+cd = selecionar uma pasta
+
+Exemplo: secao.2  ->  001aula1 e -> node aula.js
+
+ou fazer direto:
+
+Dentro do terminal, selecionado a pasta Curso-JavaScript-e-TypeScript digito:
+
+node secao.2\001aula1\aula.js
+
+Se fosse no LINUX, seriam barras normais, sem ser invertidas
+
+*/
