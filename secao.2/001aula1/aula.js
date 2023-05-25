@@ -35,3 +35,21 @@ console.log(`Crases invertidas = Posso usar 'aspas simples' ou "aspas duplas"`);
 // POSSO EXIBIR NÚMERO DA FORMA ABAIXO, SEM ASPAS:
 
 console.log(28, 15.8, 'Douglas Almeida'); // apenas números = Number = número
+
+
+
+/* Posso executar também pelos terminais CMD ou terminal do linux
+
+Windows = CMD => node "c:\Users\Pichau\Documents\Web Dev\projetos\Curso-JavaScript-e-TypeScript\secao.2\001aula_1\aula1.js"
+Linux = Terminal => node "c:\Users\Pichau\Documents\Web Dev\projetos\Curso-JavaScript-e-TypeScript\secao.2\001aula_1\aula1.js" 
+
+VSCode na ABA terminal
+ou apenas clicar no ícone do CODE para executar no OUTPUT
+
+cd = selecionar uma pasta
+
+Exemplo: secao.2  ->  001aula1 e -> node aula.js
+
+ou fazer direto:
+
+*/
