@@ -32,3 +32,9 @@ node secao.2\001aula1\aula.js
 Se fosse no LINUX, seriam barras normais, sem ser invertidas
 
 */
+
+// PARA FORMATAR O CÓDIGO:
+
+/* Posso apertar: SHIFT+TAB
+
+   ou posso clicar com meu botão direito e clicar em: FORMAT DOCUMENT (Atalho: Shift+Alt+F)
