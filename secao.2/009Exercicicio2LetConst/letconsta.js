@@ -22,15 +22,34 @@ console.log (nome, sobreNome, "tem", idade, descricao1, ". Seu nome é:", nomeFi
 const nome2 = 'Douglas F. Mota';
 const sobreNome2 = " de Almeida,";
 const idade2 = ` 28 anos,`;
+let idade3 = 28;
 let peso = 90;
-const altura = 1.71;
+const alturaEmM = 1.71;
 
-const imc = peso / (altura * altura);  // IMC é calculado: PESO / (ALTURA * ALTURA)
+// Poderia declarar minha variável IMC e dar valor a ela depois, porém, resolvi fazer em apenas uma linha:
 
-const geral = nome2 + sobreNome2 + idade2 + " tem " + peso + " Kg e " + altura + " de altura.";
+let imc = peso / (alturaEmM * alturaEmM);  // IMC (Índice de Massa Corporal) é calculado: PESO / (ALTURA * ALTURA)
 
-console.log(imc) ;
-console.log(geral);
+
+const geral = nome2 + sobreNome2 + idade2 + " tem " + peso + " Kg e " + alturaEmM + " de altura.";
+
+
+/* OU PODERÁ SER DIRETIO NO LOG, sem definifir uma constante com tudo e ficaria: */
+
+console.log(nome2, sobreNome2, idade2, " tem ", peso, " Kg e ", alturaEmM, " de altura... FEITO DIRETO NO CONSOLE.LOG")
+
+console.log("Resultado o meu IMC: ", imc) ;
+console.log(geral, " FEITO PEGAR PELA MINHA CONST GERAL...");
+
+
+
+// Aqui, para mostrar minha idade, irei declarar e depois inicializar:
+
+let anoNascimento;
+anoNascimento = 2023 - idade3; // declarei idade3, pois tem que ser Number, e a idade e idade2 estão como String
+
+console.log(anoNascimento);
+
 
 
 
