@@ -3,6 +3,8 @@
 O QUE PRECISAR MUDAR SERÁ => let
 O QUE NÃO PRECISAR MUDAR SERÁ => const
 
+ponto e vúrgula no JS é facultado
+
 */
 
 const nome = "Douglas";
@@ -16,6 +18,19 @@ console.log (nome, sobreNome, "tem", idade, descricao1, ". Seu nome é:", nomeFi
 
 // /////////////////////////////////////////////////////////////
 
+
+const nome2 = 'Douglas F. Mota';
+const sobreNome2 = " de Almeida,";
+const idade2 = ` 28 anos,`;
+let peso = 90;
+const altura = 1.71;
+
+const imc = peso / (altura * altura);  // IMC é calculado: PESO / (ALTURA * ALTURA)
+
+const geral = nome2 + sobreNome2 + idade2 + " tem " + peso + " Kg e " + altura + " de altura.";
+
+console.log(imc) ;
+console.log(geral);
 
 
 
