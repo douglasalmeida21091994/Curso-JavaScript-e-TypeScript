@@ -33,3 +33,27 @@ console.log(olhandoIndice.indexOf('texto')) // resultado: 5, pois começa no ín
 
 
 
+
+
+// SUBSTITUINDO ALGUMA LETRA EM MINHA STRING:
+
+let sub = "o rato roeu a roupa do rei de roma às 16h."
+
+//substituindo o R por algum caractere || a letra g, faz com que seja substituído em todo os R
+console.log(sub.replace(/r/, '#'))
+
+// SUBSTITUINDO EM TODOS OS R:
+
+console.log(sub.replace(/r/g, '#'))
+
+// VERIFICAR O TAMANHO DA MINHA STRING:
+
+console.log(sub.length)
+
+// PEGANDO SÓ UMA PARTE DA STRING:
+
+console.log(sub.slice(2, 6)) // resultado: rato
+
+console.log(sub.slice(-3))  // resultado: 6h.
+
+console.log(sub.slice(39))  // resultado: 6h.
