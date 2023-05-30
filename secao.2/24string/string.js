@@ -57,3 +57,13 @@ console.log(sub.slice(2, 6)) // resultado: rato
 console.log(sub.slice(-3))  // resultado: 6h.
 
 console.log(sub.slice(39))  // resultado: 6h.
+
+
+// DEIXANDO A INSTRING TODA MAIÚSCULA:
+
+console.log(sub.toUpperCase()) // função tem que ter parenteses ()
+
+// DEIXANDO A INSTRING TODA MINÚSCULA:
+
+console.log(sub.toLowerCase()) // função tem que ter parenteses ()
+
