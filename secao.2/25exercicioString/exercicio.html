@@ -8,8 +8,6 @@
 </head>
 <body>
 
-    <strong></strong>
-    
     <script>
         const nome = prompt("Digite seu nome completo:")
 
@@ -20,16 +18,26 @@
         // Posso iniciar apenas com o sinal de = (igual) ou com o sinal de +=
 
         document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras <br />`
+
         document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome[1]}</strong> <br />` // Essa eu poderia fazer de duas formas, usando: .chatAt(1) ou [1] sem o ponto // LEMBRANDO QUE O ÍNCIO 0 = primeira letra e 1 = segunda letra
+
         document.body.innerHTML += `Qual o primeiro índice da LETRA "A" no seu nome? <strong>${nome.indexOf("a")}</strong><br />`  // Aqui ele me dirá qual o PRIMEIRO índice, em NÚMERO, está a primeira letra A do meu nome
+
         document.body.innerHTML += `Qual o último índice da letra no seu nome? <strong>${nome.lastIndexOf("a")}</strong><br />` // Como tem mais de uma LETRA A no meu nome, essa me dirá o índice do meu nome
+
         document.body.innerHTML += `As três últimas letras do seu nome são: <strong>${nome.slice(-3)}</strong><br />` // Aqui ele vai até o final da minha STRING -3, ou seja, não especifiquei o final, dei apenas o start || o start com o fim, seria: ${nome.slice(-3, nome.length)}
+
         document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong><br />` // Dessa forma, pego as palavras do meu nome completo, separado-as com uma vírgula, tirando os espaços, pois eu não colocou
+
         document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}</strong> <br />`
+
         document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong> <br />`
+
         document.body.innerHTML += `Substituindo APENAS A PRIMEIRA LETRA "A" do nome completo, por '#' ficaria: <strong>${nome.replace(/a/, '#')}</strong> <br />`
 
-        document.body.innerHTML += `Substituindo TODAS as letras "A" do nome completo, por '#' ficaria: <strong>${nome.replace(/a/g, '#')}</strong>` // É o "g" quem diz se serão todas as letras ou apenas a primeira que encontrar.        
+        document.body.innerHTML += `Substituindo TODAS as letras "A" do nome completo, por '#' ficaria: <strong>${nome.replace(/a/g, '#')}</strong>` // É o "g" quem diz se serão todas as letras ou apenas a primeira que encontrar.         
+        
+        // ATENÇÃO: letra com acento é uma coisa e sem é outra, na programação (JS)
         
         console.log(nome)
 
