@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(14, 12, 12);    
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: #fff;
+}
+
+span {
+    color: bisque;
+}
+
+div {
+    color: rgb(0, 195, 255);
+}
