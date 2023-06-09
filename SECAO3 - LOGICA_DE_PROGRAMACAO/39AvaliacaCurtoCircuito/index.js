@@ -8,4 +8,8 @@ OPERADORES LÓGICOS:
 
 */
 
+// O JS CHECA TUDO E RETORNA || Se achar o FALSE ele mostrará qual é || Se naão acchar e todas fortem TRUE ele retornará a última expressão:
 
+console.log("Douglas" && false && "Almeida"); // String false String => Retonará: false
+console.log("Douglas" && true && "Almeida"); // String true String => Retonará: Almeida, POIS TODAS SÃO TRUE
+console.log("Douglas" && true && NaN); // Retorna: NaN
