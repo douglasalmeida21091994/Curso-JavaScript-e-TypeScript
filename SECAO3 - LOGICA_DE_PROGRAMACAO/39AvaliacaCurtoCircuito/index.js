@@ -17,10 +17,12 @@ console.log("Douglas" && true && NaN); // Retorna: NaN
 
 QUALQUER COISA DIFERENTE DO QUE ESTÁ ABAIXO, É AVALIADO PELO JS, COMO TRUE
 
+OS ABAIXO SÃO TODOS FALSE:
+
 false
 0
 '' ou "" ou ``  STRINGS VAZIAS
-numm
+null
 undefined
 NaN
 
