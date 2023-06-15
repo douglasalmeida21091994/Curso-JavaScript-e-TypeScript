@@ -159,7 +159,21 @@ h1.innerHTML = criaData(data)
 
 // FORMA MAIS SIMPLES de COLOCAR data e hora completa na TELA:
 
+/*
 const h1 = document.querySelector(".container h1");
 const data = new Date();
 h1.innerHTML = data.toLocaleString("pt-BR", {dateStyle: "full", timeStyle: "medium"});
+*/
 
+const h1 = document.querySelector(".container h1");
+
+function atualizarHora() {
+  const data = new Date();
+  h1.innerHTML = data.toLocaleString("pt-BR", { dateStyle: "full", timeStyle: "medium" });
+}
+
+// Atualizar a hora inicial
+atualizarHora();
+
+// Atualizar a cada segundo
+setInterval(atualizarHora, 1000);
