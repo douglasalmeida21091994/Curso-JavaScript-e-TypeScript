@@ -35,3 +35,17 @@ console.log(resto);
 // Espalhar: ...spread
 
 // Caso eu não queira pegar na ordem, posso colocar um espaço vazio entre vírgulas
+
+
+// POSSO FAZER DA SEGUINTE FORMA TAMBÉM:
+
+//               0          1          2
+//            0  1  2    0  1  2    0  1  0
+const num = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+const [lista1, lista2, lista3] = num;
+console.log(lista3[1]) // pegando o numero 8
+
+// ou simplesmente:
+
+console.log(num[1][2]); // Acessando o índice 2 da lista 2, ou seja: 2ª lista número 6
