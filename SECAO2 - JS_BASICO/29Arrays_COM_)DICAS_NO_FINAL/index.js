@@ -120,12 +120,16 @@ console.log(frutas2 instanceof Array) // Perguntei: frutas2 é uma instância de
 
 
 
+const frutas3 = ["Maçã", "Uva", "banana"];
 
+frutas3.shift("oi");
+console.log(frutas3);
 
+/* 
+push()      => ADICIONA no final da STRING
+unshift()   => ADICIONA no início da STRING
 
+pop()       => REMOVE no final da STRING
+shift()     => REMOVE no início da STRING
 
-
-
-
-
-
+*/
