@@ -46,19 +46,21 @@ document.addEventListener("click", function (e) {
 
     if (elemento.classList.contains("iniciar")) {
         h1.innerHTML = "Time Iniciado";
-        relogio.classList.remove('pausado'); // class criado no CSS
+        relogio.classList.add('iniciado'); // class criado no CSS
         clearInterval(timer);
         iniciarReloigio();
     }
 
     if (elemento.classList.contains("pausar")) {
         h1.innerHTML = "Time Pausado";
+        relogio.classList.remove("iniciado");
         relogio.classList.add('pausado'); // remove a class que criei no CSS
         clearInterval(timer);  // pra pausar    
     }
 
     if (elemento.classList.contains("zerar")) {
         relogio.classList.remove("pausado");
+        relogio.classList.remove("iniciado");        
         clearInterval(timer);
         relogio.innerHTML = "00:00:00";
         segundos = 0;
@@ -66,6 +68,7 @@ document.addEventListener("click", function (e) {
 
     if (elemento.classList.contains("resetar")) {
         relogio.classList.remove("pausado");
+        relogio.classList.remove("iniciado"); 
         clearInterval(timer);
         relogio.innerHTML = "00:00:00";
         segundos = 0;
