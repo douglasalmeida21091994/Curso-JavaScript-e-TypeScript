@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+:root {
+    --verdeNeon: #01fd03 ;
+    --verdeNeon2: #00d734;  
+    --verNeon3: #09ed79;  
+    --verdeNeon4: #befe23;
+    --pinkNeon: #ff006d;
+    --pinkNeon2: #f68dfb;
+    --pinkNeon3: #ff21fe;
+    --azulClaro: #2e9395;
+    --azulNeon: #39ffff;
+    --azulNeon2: #65ecff;
+    --azulNeon3: #09e7fa;
+    --azulNeon4: #22fefc;
+    --amarelhoNeon: #e5c147;
+    --amareloNeion2: #fee06d;
+    --amareloNeon3: #f7fb1a;
+    --black: #010508;
+    --cinza: #2c2c2c;
+    --redNeon: #e80c15;
+    --redClaro: #ffb0d0;
+}
+
+body {
+    background-color: var(--black);
+    color: #ffffff;
+}
+
