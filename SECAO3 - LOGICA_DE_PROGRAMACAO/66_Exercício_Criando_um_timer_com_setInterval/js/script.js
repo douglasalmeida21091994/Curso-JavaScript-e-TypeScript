@@ -1,4 +1,3 @@
-
 // função de segundos:
 
 function getTimeFromSeconds(segundos) {
@@ -13,6 +12,8 @@ function getTimeFromSeconds(segundos) {
 
 const h1 = document.querySelector(".h1")
 const relogio = document.querySelector(".relogio");
+
+
 /* 
  NÃO PRECISO MAIS SELECIONAR DESSA FORMA:
 
