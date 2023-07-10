@@ -12,7 +12,20 @@
 
 // TUDO QUE ESTIVER DENTRO DO ESCOPO DA MINHA FUNÇÃO ESTARÁ PROTEGIDO, OU SEJA, NÃO ESTARÁ NO ESCOPO GLOBAL.
 
+(function() {
+    const sobrenome = "Almeida";
 
+    function criaNome(nome) {
+        return nome + " " + sobrenome
+    }
+
+    function falaNome() {
+        console.log(criaNome("Douglas"))
+    }
+
+    falaNome();
+
+})();
 
 
 
