@@ -12,11 +12,11 @@
 
 // TUDO QUE ESTIVER DENTRO DO ESCOPO DA MINHA FUNÇÃO ESTARÁ PROTEGIDO, OU SEJA, NÃO ESTARÁ NO ESCOPO GLOBAL.
 
-(function() {
+(function(idade, peso, altura) {
     const sobrenome = "Almeida";
 
     function criaNome(nome) {
-        return nome + " " + sobrenome
+        return nome + " " + sobrenome + ", " + idade + ", " + peso + ", " + altura;
     }
 
     function falaNome() {
@@ -25,7 +25,7 @@
 
     falaNome();
 
-})();
+})("28 anos", "90Kg", 1.71);
 
 
 
