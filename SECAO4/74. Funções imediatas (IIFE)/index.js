@@ -1,5 +1,18 @@
 
 // 74. Funções imediatas (IIFE) 
 
-// FUNÇÕES AUTO-INVOCADAS
+// FUNÇÕES AUTO-INVOCADAS QUANDO É CRIADA
+
+
+/* FUNCÇÃO FICA SEM NOME E ELA É EXECUTADA AUTOMATICAMENTE DA FORMA ABAIXO: */
+(function() {
+    const nome = "Douglas";
+    console.log(nome);
+})();
+
+// TUDO QUE ESTIVER DENTRO DO ESCOPO DA MINHA FUNÇÃO ESTARÁ PROTEGIDO, OU SEJA, NÃO ESTARÁ NO ESCOPO GLOBAL.
+
+
+
+
 
